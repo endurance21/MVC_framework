@@ -5,8 +5,10 @@
 clone the repo , open example folder and launch the index.html , navigate each section to see the implementation
 ```
 
-```bash
-for making your own Project based on this Framework 
+
+FOR MAKING YOUR OWN PROJECT USING THIS FRAMEWORK , USE FOLLOWING STEPS
+
+```
 1. Use global 'MVC' class to define your MVC manager to your app
 ```
 ```
