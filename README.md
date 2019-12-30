@@ -2,9 +2,34 @@
 > A MVC javascript FRAMEWORK or plugin , based on hash Url and XMLHttpRequest 
 
 ```bash
-Use global 'MVC' class to define your MVC manager to your app
+clone the repo , open example folder and launch the index.html , navigate each section to see the implementation
 ```
 
+```bash
+for making your own Project based on this Framework 
+1. Use global 'MVC' class to define your MVC manager to your app
+```
+```
+2. Add routes to router object of 'MVC' using addRoute function with proper arguements
+eg:
+      " MVc.router.addRoute(HomeController, 'home', 'views/home.html') "
+```
+```
+3. Initilize the MVC manager using 
 
-Made with lub! :p
+        " MVc.init() "
+```
+```
+4. modify  model using respective controller just defined
+
+ eg:  " function HomeController(model) {
+            model.message = 'Hello World';
+        } "
+```        
+
+
+
+
+
+thanks for visiting my repo!
 
