@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Mvc</title>
+    <script src="../source/mvc/main.js"></script>
+   
+    <style type="text/css">
+        .NavLinkContainer {
+            padding: 5px;
+            background-color: lightyellow;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .NavLink {
+            width:20%;
+            background-color:red;
+            color: white;
+            font-weight:800;
+            text-decoration:none;
+            padding:5px;
+            text-align:center;
+        }
+            .NavLink:hover {
+                background-color:gray;
+            }
+    </style>
+</head>
+<body>
+    <h3>Navigation Links</h3>
+    <div class="NavLinkContainer">
+        <a class="NavLink" href="index.html#/home">Home</a>&nbsp;
+   
+        <a class="NavLink" href="index.html#/contact">Contact</a>&nbsp;
+
+        <a class="NavLink" href="index.html#/admin">Admin</a>&nbsp;
+       
+    </div>
+    <br />
+    <br />
+    <h3>View</h3>
+    <div view></div>
+    <script>
+        var MVc  = new MVC();
+        // console.log(MVc)
+        MVc.router.addRoute(HomeController, 'home', 'views/home.html');
+        MVc.router.addRoute(ContactController, 'contact', 'views/contact.html');
+        MVc.router.addRoute(AdminController, 'admin', 'views/admin.html');
+        MVc.init();
+
+        function HomeController(model) {
+            model.message = 'Hello World';
+        }
+
+        function ContactController(model) {
+            model.FirstName = "John";
+           
+        }
+
+        function AdminController(model) {
+            model.UserName = "John";
+        }
+    </script>
+</body>
+</html>
+
