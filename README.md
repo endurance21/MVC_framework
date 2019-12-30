@@ -6,5 +6,5 @@ Use global 'MVC' class to define your MVC manager to your app
 ```
 
 
-Made with lub! 
+Made with lub! :p
 
