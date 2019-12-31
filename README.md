@@ -33,5 +33,7 @@ eg:
 
 
 
-thanks for visiting my repo!
+This project was made while learning MVC architecture .
+Special thanks to @Nitij for sharing the source  :-
+ https://www.codeproject.com/script/Membership/View.aspx?mid=5981490
 
