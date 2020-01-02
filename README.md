@@ -1,5 +1,7 @@
 # MVC_framework
 > A MVC javascript FRAMEWORK or plugin , based on hash Url and XMLHttpRequest 
+> have brief idea about what i am actually refering by saying HASH URL in 60 secs
+ https://www.oho.com/blog/explained-60-seconds-hash-symbols-urls-and-seo
 
 ```bash
 clone the repo , open example folder and launch the index.html , navigate each section to see the implementation
